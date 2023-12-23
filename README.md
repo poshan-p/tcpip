@@ -49,7 +49,7 @@ run node ping tunnel R1 <destinationIP> <tunnelIP>
 
 ## Topology Customization
 
-In the topology/topology.go file, you can create your own topology. Use the created topology in the `cmd/commands.go` file by calling the function you created to replace the variable `topology` with the returned topology.
+In the `topology/topology.go` file, you can create your own topology. Use the created topology in the `cmd/commands.go` file by calling the function you created to replace the variable `topology` with the returned topology.
 
 ## Future Development
 
