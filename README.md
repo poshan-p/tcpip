@@ -47,6 +47,10 @@ run node ping tunnel R1 <destinationIP> <tunnelIP>
 - **VLAN Support:** Create and manage VLANs for network segmentation.
 - **Loopback Address:** Assign loopback addresses to nodes for local testing.
 
+## Topology Customization
+
+In the topology/topology.go file, you can create your own topology. Use the created topology in the `cmd/commands.go` file by calling the function you created to replace the variable `topology` with the returned topology.
+
 ## Future Development
 
 This simulation is a work in progress, and more features will be added in the future.
